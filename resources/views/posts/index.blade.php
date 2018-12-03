@@ -3,7 +3,7 @@
 @section('content')
     <h1>Posts</h1>
     @if (count($posts) > 0)
-        @foreach($posts as $post)
+        @foreach ($posts as $post)
             <div class="card card-body bg-light mb-3">
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
